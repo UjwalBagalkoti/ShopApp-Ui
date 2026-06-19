@@ -70,3 +70,4 @@ Or use Netlify:
 - Smooth animations: floating product images, button press feedback
 - Consistent design token: `#667eea → #764ba2` purple gradient as brand color
 "# shopapp__UI" 
+"# shopapp__UI" 
