@@ -1,0 +1,124 @@
+.onboarding {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.5s ease;
+}
+
+.skip-btn {
+  position: absolute;
+  top: 52px;
+  right: 24px;
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  z-index: 10;
+}
+
+.onboarding-illustration {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.illustration-circle {
+  width: 220px;
+  height: 220px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-16px); }
+}
+
+.illustration-emoji {
+  font-size: 90px;
+}
+
+.onboarding-content {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  border-radius: 36px 36px 0 0;
+  padding: 36px 32px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dots {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot--active {
+  background: #fff;
+  width: 28px;
+  border-radius: 4px;
+}
+
+.onboarding-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+.onboarding-subtitle {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 36px;
+  max-width: 280px;
+}
+
+.next-btn {
+  width: 100%;
+  padding: 16px;
+  background: #fff;
+  color: #333;
+  border: none;
+  border-radius: 16px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.next-btn:active {
+  transform: scale(0.97);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
