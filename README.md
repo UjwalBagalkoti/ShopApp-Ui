@@ -2,6 +2,9 @@
 
 A pixel-perfect mobile-app-style React JS project for the intern/fresher qualifier task.
 
+## Demo (Vercel)
+https://shop-app-ui-delta.vercel.app/onboarding
+
 ## 📱 Features
 
 - **Onboarding** — 3-slide animated intro with skip functionality
@@ -61,9 +64,6 @@ src/
 Or use Netlify:
 1. `npm run build`
 2. Drag the `build/` folder to [netlify.com/drop](https://netlify.com/drop)
-
-## Demo (Vercel)
-https://shop-app-ui-delta.vercel.app/onboarding
 
 ## 📐 Design Decisions
 
