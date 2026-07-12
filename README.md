@@ -62,6 +62,9 @@ Or use Netlify:
 1. `npm run build`
 2. Drag the `build/` folder to [netlify.com/drop](https://netlify.com/drop)
 
+## Demo (Vercel)
+https://shop-app-ui-delta.vercel.app/onboarding
+
 ## 📐 Design Decisions
 
 - Phone frame (390×844px) centered on the webpage with a gradient background
